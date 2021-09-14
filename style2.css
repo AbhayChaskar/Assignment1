@@ -1,0 +1,11 @@
+*{text-align: center; margin: 0px; padding: 0px;}
+.wrapper{margin-left: 5%; margin-right: 5%;}
+.head{padding: 3%; background-color: rgb(123, 255, 0); border-radius: 0px 0px 15px 15px;}
+.foot{padding: 3%; background-color: rgb(123, 255, 0); border-radius: 0px 0px 15px 15px; margin-top: 5px;}
+.col1{color: white;}
+.new{float: left; margin-left: 8%;}
+.row{height: 130px; background-color: rgb(250, 162, 180); margin-top: 8px;}
+.fl{float: left;}
+.fr{float: right;}
+.camp{height: 110px; width: 10%; background-color: rgb(2, 0, 138); border-radius: 50%; margin-top: 1%;}
+   

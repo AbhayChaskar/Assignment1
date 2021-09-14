@@ -1,0 +1,181 @@
+<html>
+    <head>
+        <title>Display properties</title>
+        <style>
+            *{margin: 0px auto;}
+            .main{width: 90%;}
+            section
+            {
+                text-align: center;
+            }
+            p
+            {
+                padding-left: 5px;
+            }
+            .header
+            {
+                margin: 15px 0px; 
+                background-color: crimson;
+                width: 100%; 
+                height: 35px; 
+                border: 2px solid black;
+                border-radius: 15px 15px 0px 0px;
+            }
+            .menu
+            {
+                background-color: cyan; 
+                width: 100%; 
+                height: 35px; 
+                border: 2px solid black; 
+                margin-top: -10px;
+                margin-bottom: 6px;
+            }
+            .leftbar
+            {
+                background-color: rgb(69, 231, 104);
+                width: 24%;
+                min-height: 350px;
+                float: left;
+                border: 1px solid black;
+            }
+            .contentarea
+            {
+                background-color: rgb(69, 231, 104);
+                width: 50.5%;
+                height: 350px;
+                float: left;
+                border: 1px solid black;
+                margin-bottom: 6px;
+            }
+            .rightbar
+            {
+                background-color: rgb(69, 231, 104);
+                width: 25%;
+                height: 350px;
+                float: right;
+                border: 1px solid black;
+            }
+            #footer
+            {
+                background-color: cyan;
+                width: 100%; 
+                height: 35px; 
+                border: 2px solid black;
+                float: inline-end;
+                border-radius: 0px 0px 15px 15px;
+                animation: customname 6s infinite;
+            }
+                @keyframes customname 
+                {
+                    0%{background-color: rgb(192, 17, 183)}   
+                    30%{background-color: rgb(0, 124, 128)}   
+                    60%{background-color: rgb(0, 19, 128)}   
+                    100%{background-color: rgb(184, 115, 12)}   
+                }
+            .clear
+            {
+                clear: both;
+            }
+            @media screen and (max-width:1020px)
+            {
+                .header{background-color: blue; width: auto;}
+
+                .menu{background-color: rgb(13, 156, 68); width: auto;}
+
+                .rightbar{background-color: darkred; width: auto; min-height: 720px; float: none;}
+                
+                .leftbar{background-color: darkslategrey; width: 30%; min-height: 720px;}
+    
+                .contentarea{background-color: olive; width: 35%; min-height: 720px;}
+
+                #footer{background-color: blue; width: auto;}
+
+            }
+            @media screen and (max-width:720px)
+            {
+                .header{background-color: rgb(182, 83, 149); width: auto;}
+
+                .menu{background-color: rgb(0, 49, 95); width: auto;}
+
+                .rightbar{background-color: rgba(165, 197, 23, 0.822); width: auto; min-height: 720px; float: none;}
+                
+                .leftbar{background-color: rgba(30, 49, 59, 0.699); width: 25%; min-height: 720px;}
+    
+                .contentarea{background-color: rgb(255, 255, 0); width: 40%; min-height: 720px;}
+
+                #footer{background-color: rgb(216, 105, 90); width: auto;}
+
+            }
+            @media screen and (max-width:510px)
+            {
+                .header{background-color: rgba(35, 199, 163, 0.616); width: auto;}
+
+                .menu{background-color: rgb(0, 68, 26); width: auto;}
+
+                .rightbar{background-color: rgba(128, 76, 128, 0.644); width: auto; min-height: 1000px; float: none;}
+                
+                .leftbar{background-color: rgb(212, 161, 172); width: 20%; min-height: 1000px;}
+    
+                .contentarea{background-color: rgb(255, 255, 139); width: 35%; min-height: 1000px;}
+
+                #footer{background-color: rgba(135, 134, 190, 0.63); width: auto;}
+
+            }
+        </style>
+    </head>
+    <body>
+        <section class="main">
+            <header class="header">
+                <h3 style="color: white;">Literature Survey</h3>
+            </header>
+            <aside class="menu">
+                <h3>NLP based plain Text Analysis using Machine Learning</h3>
+            </aside>
+            <section class="leftbar">
+                Author Names
+                <hr color="black">
+                <br>
+                <ol type="1">
+                    <li style="text-align: left;">Abhay Chaskar</li>
+                    <li style="text-align: left;">Shraddha Gadekar</li>
+                    <li style="text-align: left;">Balla Raut</li>
+                    <li style="text-align: left;">Shiva Saran</li>
+                </ol>
+                <br><br>
+                <p style="color: rgb(34, 0, 185);">Paper Published Date: 01 June 2021</p>
+            </section>
+            <section class="contentarea">
+                Abstract
+                <hr color="black">
+                <p style="text-align: left; font-family: Georgia, 'Times New Roman', Times, serif;">
+                    <br>
+                         High-throughput sequencing of mRNA (RNA-seq) has become the standard method for measuring and comparing the
+                    levels of gene expression in a wide variety of species and conditions. RNA-seq experiments generate very large, 
+                    complex data sets that demand fast, accurate and flexible software to reduce the raw read data to comprehensible 
+                    results. HISAT (hierarchical indexing for spliced alignment of transcripts), StringTie and Ballgown are free, 
+                    open-source software tools for comprehensive analysis of RNA-seq experiments. Together, they allow scientists to 
+                    align reads to a genome, assemble transcripts including novel splice variants, compute the abundance of these
+                    transcripts in each sample and compare experiments to identify differentially expressed genes and transcripts. 
+                </p>
+            </section>
+            <section class="rightbar">
+                Conclusion
+                <hr color="black">
+                <br>
+                <ul>
+                    <li style="text-align: left;">The Human Genome Project focused on the DNA sequence of an individual. The next step was to analyze 
+                        DNA sequences from different populations.</li>
+                    <li style="text-align: left;">This catalog of human genetic variation was called the HapMap.
+                        Completed in 2005.</li>
+                    <li style="text-align: left;"> Haplotypes shared by people with the disease are then examined in detail to look for 
+                        associated genes.</li>
+                    <li style="text-align: left;">It is expected that the 
+                        HapMap will play an important role in identifying many more disease genes in the future.</li>
+                </ul>
+            </section>
+            <footer id="footer" class="clear">
+                <h2 style="color: white;">Thank You for being Patient</h2>
+            </footer>
+        </section>
+    </body>
+</html>
